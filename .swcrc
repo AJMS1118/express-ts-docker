@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "sourceMaps": true,
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "decorators": true,
+      "dynamicImport": true
+    },
+    "baseUrl": "./",
+    "paths": {
+      "@/src/*": ["src/*"],
+      "@/app/*": ["src/app/*"],
+      "@/contexts/*": ["src/contexts/*"],
+      "@/shared/*": ["src/contexts/shared/*"],
+      "@/tests/*": ["tests/*"]
+    },
+    "target": "es2022"
+  },
+  "module": {
+    "type": "commonjs"
+  },
+  "minify": false
+}

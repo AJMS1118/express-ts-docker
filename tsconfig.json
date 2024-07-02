@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "es2022",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "inlineSources": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@/src/*": ["src/*"],
+      "@/app/*": ["src/app/*"],
+      "@/contexts/*": ["src/contexts/*"],
+      "@/shared/*": ["src/contexts/shared/*"],
+      "@/tests/*": ["tests/*"]
+    },
+    "types": ["vitest/globals"]
+  },
+  "exclude": ["node_modules", "dist"]
+}
